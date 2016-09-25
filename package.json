@@ -1,0 +1,26 @@
+{
+  "name": "memoize",
+  "version": "0.0.1",
+  "description": "Module to memoize function results for any number of arguments.",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "sinon": "^1.17.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-3": "^6.11.0",
+    "mocha": "^3.0.2"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register",
+    "pre-publish" : "npm run test"
+  },
+  "author": "Tiddo Langerak <tiddolangerak@gmail.com> (https://github.com/TiddoLangerak/)",
+  "license": "MIT"
+}
