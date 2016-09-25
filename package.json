@@ -1,6 +1,6 @@
 {
-  "name": "memoize",
-  "version": "0.0.1",
+  "name": "@tiddo/memoize",
+  "version": "1.0.0",
   "description": "Module to memoize function results for any number of arguments.",
   "main": "src/index.js",
   "directories": {
@@ -19,7 +19,7 @@
   },
   "scripts": {
     "test": "mocha --compilers js:babel-core/register",
-    "pre-publish" : "npm run test"
+    "pre-publish": "npm run test"
   },
   "author": "Tiddo Langerak <tiddolangerak@gmail.com> (https://github.com/TiddoLangerak/)",
   "license": "MIT"
