@@ -22,5 +22,13 @@
     "pre-publish": "npm run test"
   },
   "author": "Tiddo Langerak <tiddolangerak@gmail.com> (https://github.com/TiddoLangerak/)",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiddoLangerak/memoize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TiddoLangerak/memoize/issues"
+  },
+  "homepage": "https://github.com/TiddoLangerak/memoize#readme"
 }
